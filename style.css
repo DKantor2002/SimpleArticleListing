@@ -82,8 +82,14 @@ p {
      .container3 {
           margin-left: 30px;
           margin-right: 30px;
+          flex-direction: column;
+          align-items: flex-start;
      }
-     .header-title h1 {
-          font-size: 2.25rem;
+     .inner-container1,
+     .inner-container2,
+     .inner-container3 {
+          margin-left: 0;
+          margin-top: 16px;
+          text-align: left;
      }
 }
